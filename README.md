@@ -8,8 +8,8 @@
   
 ### 1. Data Preprocessing
 - Remove non-ordinal features
-- Apply 5-fold cross-validation to a linear SVM with arranged folds--use statiscal analysis to determine important features
-- Convert labels to binary classification (dropout vs not-dropout or graduated vs not-graduated)
+- Apply 5-fold cross-validation to a linear SVM with arranged folds--use statiscal analysis to determine most significant features
+- Convert labels to binary classification--dropout vs. non-dropout or graduated vs. non-graduated—while taking label proportions into account
 - Scale features so they are on the same range 
 
 ### 2. Model Construction
@@ -19,9 +19,9 @@
 - Incorporate slack variables (handles any non-linearly separable data)
 
 ### 3. Model Evaluation
-- Use R² score to measure the proportion of variance explained
-- Explore additional evaluation metrics
-- Check for overfitting by comparing train/test performance and analyzing learning curves.
+- Use Cross-Entropy Loss (Log Loss) as the primary evaluation metric for accuracy and performance
+- Explore additional evaluation metrics (confusion matrix, precision, recall, F1 score)
+- Overfitting?
 
 ### 4. Model Improvements
 - Further splitting the training set into training/validation and apply grid search on hyperparameters --> Tune kernel parameters 
