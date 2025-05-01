@@ -9,7 +9,7 @@
 ### 1. Data Preprocessing
 - Remove non-ordinal features
 - Apply 5-fold cross-validation to a linear SVM with arranged folds--use statiscal analysis to determine important features
-- Convert labels to binary classification 
+- Convert labels to binary classification (dropout vs not-dropout or graduated vs not-graduated)
 - Scale features so they are on the same range 
 
 ### 2. Model Construction
