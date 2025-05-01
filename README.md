@@ -1,8 +1,14 @@
 # Student-Dropout-Predictor
 ## Plan for SVM Classification Model – Student Dropout Dataset
+### Repository Structure:
+-  Folder that contains unprocessed and processed data
+-  Notebook for data preprocessing
+-  Notebook for picking hyperparameters
+-  Notebook for model training and evaluation
+  
 ### 1. Data Preprocessing
 - Remove non-ordinal features
-- Apply 5-fold cross-validation to find most important features
+- Apply 5-fold cross-validation to a linear SVM with arranged folds--use statiscal analysis to determine important features
 - Convert labels to binary classification 
 - Scale features so they are on the same range 
 
