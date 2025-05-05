@@ -13,7 +13,7 @@
 - Scale features so they are on the same range 
 
 ### 2. Model Construction
-- Implement SVMs using Batch Gradient Descent with an 80/20 train-test split
+- Implement SVMs using Stochastic Gradient Descent with an 80/20 train-test split
 - Select a kernel function (polynomial, rdf)
 - Experiment with logistic regression as a baseline classifier
 - Incorporate slack variables (handles any non-linearly separable data)
