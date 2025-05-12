@@ -7,6 +7,7 @@
 - A notebook for data cleaning and preparation
 - A notebook for the linear SVM  
 - A notebook for the kernel-based SVM  
+- A notebook for the kernel-based SVM using scikit (for comparison with our own model)  
 
 ---
 
