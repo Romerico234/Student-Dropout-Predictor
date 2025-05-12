@@ -24,7 +24,8 @@
 
 ## 3. Kernel-based SVM  
 - Train a non-linear SVM model using either a polynomial or RBF kernel  
-- Perform grid search with a validation set to tune kernel parameters 
+- Perform grid search with a validation set to find best kernel parameters
+- Use SGD procedure for SVM with kernels and slack variables
 - Perform L1 or L2 regularization 
 - Use log-loss to evaluate model performance (and optionally metrics like accuracy, precision, recall, F1 score, and confusion matrix )
 
