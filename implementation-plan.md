@@ -23,10 +23,9 @@
 - Use statistical analysis to evaluate model performance
 
 ## 3. Kernel-based SVM  
-- Train a non-linear SVM model using either a polynomial or RBF kernel  
-- Perform grid search with a validation set to find best kernel parameters
+- Train a non-linear SVM model using either a polynomial and Gaussian kernel  
+- Perform grid search and 5-fold cross validation to find best kernel parameters
 - Use SGD procedure for SVM with kernels and slack variables
-- Perform L1 or L2 regularization 
 - Use log-loss to evaluate model performance (and optionally metrics like accuracy, precision, recall, F1 score, and confusion matrix )
 
 ## 4. Final Comparison and Analysis  
